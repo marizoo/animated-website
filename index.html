@@ -8,13 +8,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- bootstrap Icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-    <!-- my own styling -->
-    <link rel="stylesheet" href="style.css">
-    <title>Animated website</title>
+    <!-- my own styling & the themeicons' css-->
+    <link rel="stylesheet" href="./css/icon-style.css">
+    <link rel="stylesheet" href="./css/style.css">
+ 
+    <title>Izoo Design</title>
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
 <!-- ? NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
         <div class="container">
           <a class="navbar-brand" href="#">IZOO.</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,7 +53,78 @@
 <!-- NAVBAR -->
 
 <!--? HERO -->
+      <section id="home" class="bg-cover hero-section">
+          <div class="overlay"></div>
+          <div class="container text-white text-center">
+              <div class="row">
+                  <div class="col-12">
+                      <h1 class="display-4">We create awesome spaces <br> for your everyday life</h1>
+                      <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum voluptate, itaque iure ratione dignissimos <br>sapiente necessitatibus eius nulla voluptatibus ad nostrum soluta dolor nobis, eum iste perspiciatis qui esse!</p>
+                      <a href="#" class="btn btn-main">Get Started</a>
+                  </div>
+              </div>
+          </div>
+      </section>
 <!-- HERO -->
+
+<!--? SERVICES -->
+      <section id="services" class="text-center">
+        <div class="container ">
+            <!-- intro row -->
+            <div class="row">
+                <div class="col-12 section-intro text-center">
+                    <h1>Our Services</h1>
+                    <div class="divider"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aperiam velit eum nisi reprehenderit cumque quos doloremque ea. Ad veniam rerum quod voluptate velit in.</p>
+                </div>
+            </div>
+            
+            <div class="row">
+              <!-- card-->
+                <div class="col-md-4">
+                    <div class="service">
+                        <div class="service-img">
+                          <img src="https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="interior" >
+                          <span class="icon">
+                            <i class="icon-browser"></i>
+                          </span>
+                        </div>
+                        <h5 class="mt-5 pt-4">Service Name</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, assumenda quam! Placeat illum itaque eius nihil quasi distinctio pariatur repellendus!</p>
+                    </div>
+                </div>
+              <!-- card -->
+                <div class="col-md-4">
+                    <div class="service">
+                        <div class="service-img">
+                          <img src="https://images.pexels.com/photos/1643384/pexels-photo-1643384.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="interior" >
+                          <span class="icon">
+                            <i class="icon-bargraph"></i>
+                          </span>
+                        </div>
+                        <h5 class="mt-5 pt-4">Service Name</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, assumenda quam! Placeat illum itaque eius nihil quasi distinctio pariatur repellendus!</p>
+                    </div>
+                </div>
+            <!-- card-->
+                <div class="col-md-4">
+                    <div class="service">
+                        <div class="service-img">
+                          <img src="https://images.pexels.com/photos/37347/office-sitting-room-executive-sitting.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="interior" >
+                          <span class="icon">
+                            <i class="icon-camera"></i>
+                          </span>
+                        </div>
+                        <h5 class="mt-5 pt-4">Service Name</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, assumenda quam! Placeat illum itaque eius nihil quasi distinctio pariatur repellendus!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- cards row -->
+          </div>
+        </div>
+      </section>
+<!-- SERVICES -->
     
 <!-- bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
