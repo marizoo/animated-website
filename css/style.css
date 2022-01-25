@@ -136,6 +136,22 @@ img {
     background-image: url('https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
 }
 
+/* FEATURES */
+.feature i{
+    background: -webkit-linear-gradient(#00c0fe, #1107fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 54px;
+}
+
+/* COUNTERS */
+#counters{
+    background-image: url('https://images.pexels.com/photos/355747/pexels-photo-355747.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+    background-position: center;
+}
+
+
+
 /* what is display: inline-flex */
 /* till min */
 /* https://www.youtube.com/watch?v=TLdivj3K2JQ&list=PLtP5GR2KLHlxTiOrNwHjmBPE7Lk_0FCjU&index=10&t=120s */
