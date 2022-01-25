@@ -175,8 +175,35 @@ img {
     color: orange;
 }
 
+/* CONTACT */
+#contact {
+    background-image: url('https://images.pexels.com/photos/840996/pexels-photo-840996.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+}
+
+form .form-control {
+    border-radius: 0;
+    background: transparent;
+    color: white;
+    border-color:  rgba(255, 255, 255, 0.7);
+}
+
+form .form-control:focus{
+    color: #fff;
+    background: transparent;
+    border-color: #fff;
+}
+
+form input.form-control {
+    height: 54px;
+
+}
+
+form .form-control::placeholder{
+    color: white;
+}
+
 
 
 /* what is display: inline-flex */
-/* till min */
+/* till min 01.24*/
 /* https://www.youtube.com/watch?v=TLdivj3K2JQ&list=PLtP5GR2KLHlxTiOrNwHjmBPE7Lk_0FCjU&index=10&t=120s */
