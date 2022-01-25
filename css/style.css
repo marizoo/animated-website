@@ -73,6 +73,10 @@ section {
     border-radius: 100px;
 }
 
+.video-btn i {
+    font-size: 40px;
+}
+
 .btn-main{
     background: linear-gradient(to left, rgb(0, 192, 254), rgb(17, 7, 254));
     border-radius: 100px;
@@ -199,6 +203,16 @@ form input.form-control {
 }
 
 form .form-control::placeholder{
+    color: white;
+}
+
+/* FOOTER */
+footer{
+    background: linear-gradient(to left, rgb(0, 192, 254), rgb(17, 7, 254));
+    color: #fff;
+}
+
+footer a{
     color: white;
 }
 

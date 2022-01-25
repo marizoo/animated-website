@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- boxIcons-->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+	<!-- aos -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<!-- my own -->
     <link rel="stylesheet" href="./css/icon-style.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -16,7 +18,7 @@
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar">
 <!-- ? NAVBAR -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white" data-aos="fade-down">
         <div class="container">
           <a class="navbar-brand" href="#">IZOO.</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,15 +54,16 @@
       </nav>
 <!-- NAVBAR -->
 
+
 <!--? HERO -->
       <section id="home" class="bg-cover hero-section">
           <div class="overlay"></div>
           <div class="container text-white text-center">
               <div class="row">
                   <div class="col-12">
-                      <h1 class="display-4">We create awesome spaces <br> for your everyday life</h1>
-                      <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum voluptate, itaque iure ratione dignissimos <br>sapiente necessitatibus eius nulla voluptatibus ad nostrum soluta dolor nobis, eum iste perspiciatis qui esse!</p>
-                      <a href="#" class="btn btn-main">Get Started</a>
+                      <h1 class="display-4" data-aos="zoom-in">We create awesome spaces <br> for your everyday life</h1>
+                      <p data-aos="fade-up" class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum voluptate, itaque iure ratione dignissimos <br>sapiente necessitatibus eius nulla voluptatibus ad nostrum soluta dolor nobis, eum iste perspiciatis qui esse!</p>
+                      <a href="#" class="btn btn-main" data-aos="fade-up">Get Started</a>
                   </div>
               </div>
           </div>
@@ -72,7 +75,7 @@
         <div class="container ">
             <!-- intro row -->
             <div class="row">
-                <div class="col-12 section-intro text-center">
+                <div class="col-12 section-intro text-center" data-aos="fade-up">
                     <h1>Our Services</h1>
                     <div class="divider"></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aperiam velit eum nisi reprehenderit cumque quos doloremque ea. Ad veniam rerum quod voluptate velit in.</p>
@@ -81,7 +84,7 @@
             
             <div class="row g-4">
               <!-- card-->
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="zoom-in">
                     <div class="service">
                         <div class="service-img">
                           <img src="https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="interior" >
@@ -94,7 +97,7 @@
                     </div>
                 </div>
               <!-- card -->
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="zoom-in">
                     <div class="service">
                         <div class="service-img">
                           <img src="https://images.pexels.com/photos/1643384/pexels-photo-1643384.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="interior" >
@@ -107,7 +110,7 @@
                     </div>
                 </div>
             <!-- card-->
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="zoom-in">
                     <div class="service">
                         <div class="service-img">
                           <img src="https://images.pexels.com/photos/37347/office-sitting-room-executive-sitting.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="interior" >
@@ -132,11 +135,11 @@
   <div class="container text-white text-center">
     <!-- intro row -->
     <div class="row">
-      <div class="col-12 section-intro text-center">
+      <div class="col-12 section-intro text-center" data-aos="fade-up">
           <h1>Watch our video</h1>
           <div class="divider"></div>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aperiam velit eum nisi reprehenderit cumque quos doloremque ea. Ad veniam rerum quod voluptate velit in.</p>
-          <a href="#" class="video-btn">play</a>
+          <a href="#" class="video-btn"><i class="bx bx-play"></i></a>
       </div>
     </div>
     <!-- end of intro row -->
@@ -149,7 +152,7 @@
   <div class="container ">
       <!-- intro row -->
       <div class="row">
-          <div class="col-12 section-intro text-center">
+          <div class="col-12 section-intro text-center" data-aos="fade-up">
               <h1>Our Features</h1>
               <div class="divider"></div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aperiam velit eum nisi reprehenderit cumque quos doloremque ea. Ad veniam rerum quod voluptate velit in.</p>
@@ -158,21 +161,21 @@
       <!-- features' row -->
       <div class="row gx-4 gy-5">
         <!-- feature-card 1 -->
-        <div class="col-md-4 feature">
+        <div class="col-md-4 feature" data-aos="fade-up">
           <div class="icon"><i class="icon-tools"></i></div>
           <h5 class="mt-4 mb-3">Feature Title</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloremque odio at aliquid pariatur quia, quo aliquam autem corporis sit?</p>
         </div>
         
         <!-- feature-card 2 -->
-        <div class="col-md-4 feature">
+        <div class="col-md-4 feature" data-aos="fade-up">
           <div class="icon"><i class="icon-calendar"></i></div>
           <h5 class="mt-4 mb-3">Feature Title</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloremque odio at aliquid pariatur quia, quo aliquam autem corporis sit?</p>
         </div>
         
         <!-- feature-card 3 -->
-        <div class="col-md-4 feature">
+        <div class="col-md-4 feature" data-aos="fade-up">
           <div class="icon"><i class="icon-camera"></i></div>
           <h5 class="mt-4 mb-3">Feature Title</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloremque odio at aliquid pariatur quia, quo aliquam autem corporis sit?</p>
@@ -180,21 +183,21 @@
         
 
         <!-- feature-card 4 -->
-        <div class="col-md-4 feature">
+        <div class="col-md-4 feature" data-aos="fade-up">
           <div class="icon"><i class="icon-strategy"></i></div>
           <h5 class="mt-4 mb-3">Feature Title</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloremque odio at aliquid pariatur quia, quo aliquam autem corporis sit?</p>
         </div>
        
         <!-- feature-card 5 -->
-        <div class="col-md-4 feature">
+        <div class="col-md-4 feature" data-aos="fade-up">
           <div class="icon"><i class="icon-scissors"></i></div>
           <h5 class="mt-4 mb-3">Feature Title</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloremque odio at aliquid pariatur quia, quo aliquam autem corporis sit?</p>
         </div>
        
         <!-- feature-card 6 -->
-        <div class="col-md-4 feature">
+        <div class="col-md-4 feature" data-aos="fade-up">
           <div class="icon"><i class="icon-browser"></i></div>
           <h5 class="mt-4 mb-3">Feature Title</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloremque odio at aliquid pariatur quia, quo aliquam autem corporis sit?</p>
@@ -211,25 +214,25 @@
   <div class="container text-white text-center">
     <div class="row gy-4">
       <!-- counters card -->
-      <div class="col-md-3">
+      <div class="col-md-3" data-aos="zoom-in">
         <i class="icon-trophy h1"></i>
         <h1 class="mt-3 mb-2">123</h1>
         <p>Awards Won</p>
       </div>
       <!-- counters card -->
-      <div class="col-md-3">
+      <div class="col-md-3" data-aos="zoom-in">
         <i class="icon-camera h1"></i>
         <h1 class="mt-3 mb-2">1274</h1>
         <p>Memories made</p>
       </div>
       <!-- counters card -->
-      <div class="col-md-3">
+      <div class="col-md-3" data-aos="zoom-in">
         <i class="icon-happy h1"></i>
         <h1 class="mt-3 mb-2">1152</h1>
         <p>Happy Clients</p>
       </div>
       <!-- counters card -->
-      <div class="col-md-3">
+      <div class="col-md-3" data-aos="zoom-in">
         <i class="icon-paintbrush h1"></i>
         <h1 class="mt-3 mb-2">5497</h1>
         <p>Spaces Created</p>
@@ -253,7 +256,7 @@
       </div>
       <div class="row g-4 text-start">
         <!-- review card 1 -->
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="fade-up">
           	<div class="review p-4">
 				<div class="person pb-4">
 					<img src="https://images.pexels.com/photos/7916153/pexels-photo-7916153.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="kitty">
@@ -273,7 +276,7 @@
           	</div>
         </div>
         <!-- review card 2 -->
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="fade-up">
           	<div class="review p-4">
 				<div class="person pb-4">
 					<img src="https://images.pexels.com/photos/5255249/pexels-photo-5255249.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="pup">
@@ -293,7 +296,7 @@
           	</div>
         </div>
         <!-- review card 3 -->
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="fade-up">
           	<div class="review p-4">
 				<div class="person pb-4">
 					<img src="https://images.pexels.com/photos/4056475/pexels-photo-4056475.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="love">
@@ -325,7 +328,7 @@
 	<div class="container ">
 		<!-- intro row -->
 		<div class="row">
-			<div class="col-12 section-intro text-center">
+			<div class="col-12 section-intro text-center" data-aos="fade-up">
 				<h1>Our Blog</h1>
 				<div class="divider"></div>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aperiam velit eum nisi reprehenderit cumque quos doloremque ea. Ad veniam rerum quod voluptate velit in.</p>
@@ -333,7 +336,7 @@
 		</div>
 		<div class="row text-start">
 			<!-- Blog card 1 -->
-			<div class="col-md-4">
+			<div class="col-md-4" data-aos="fade-up">
 				<img src="https://images.pexels.com/photos/1643389/pexels-photo-1643389.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="tiny home">
 				<div class="mt-4">
 					<small>Posted in <a href="#">Tiny Home</a>, 25 Jan 2022</small>
@@ -342,7 +345,7 @@
 				</div>
 			</div>
 			<!-- Blog card 2 -->
-			<div class="col-md-4">
+			<div class="col-md-4" data-aos="fade-up">
 				<img src="https://images.pexels.com/photos/2535212/pexels-photo-2535212.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="plant">
 				<div class="mt-4">
 					<small>Posted in <a href="#">Healthy Living</a>, 03 Feb 2022</small>
@@ -351,7 +354,7 @@
 				</div>
 			</div>
 			<!-- Blog card 3 -->
-			<div class="col-md-4">
+			<div class="col-md-4" data-aos="fade-up">
 				<img src="https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="pup">
 				<div class="mt-4">
 					<small>Posted in <a href="#">Happy Heart</a>, 15 Mar 2022</small>
@@ -370,7 +373,7 @@
 	<div class="container ">
 		<!-- intro row -->
 		<div class="row">
-			<div class="col-12 section-intro text-center">
+			<div class="col-12 section-intro text-center" data-aos="zoom-in">
 				<h1>Get in touch</h1>
 				<div class="divider"></div>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aperiam velit eum nisi reprehenderit cumque quos doloremque ea. Ad veniam rerum quod voluptate velit in.</p>
@@ -379,7 +382,7 @@
 		<!-- contact form -->
 		<div class="row">
 			<div class="col-md-8 mx-auto">
-				<form action="#" class="row g-4">
+				<form action="#" class="row g-4" data-aos="zoom-in">
 					<div class="form-group col-md-6">
 						<input class="form-control" type="text" placeholder="Full name">
 					</div>
@@ -402,8 +405,32 @@
 	</div>
   </section>
   <!-- CONTACT -->
+
+  <!-- ? FOOTER -->
+  <footer class="py-4">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<p class="mb-0">IZOO. &copy; All Rights Reserved</p>
+			</div>
+			<div class="col-md-6 text-md-end">
+				<a href="#"><i class='bx bxl-facebook-circle'></i></a>
+				<a href="#"><i class='bx bxl-twitter'></i></a>
+				<a href="#"><i class='bx bxl-instagram'></i></a>
+				<a href="#"><i class='bx bxl-dribble'></i></a>
+				<a href="#"><i class='bx bxl-github'></i></a>
+			</div>
+		</div>
+	</div>
+</footer>
+  <!--  FOOTER -->
     
 <!-- bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!-- AOS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
